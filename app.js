@@ -52,7 +52,7 @@ let rightMovie;
 
 // Helper function for selecting movie from the results
 const onMovieSelect = async (movie, summaryElement, side) => {
-    const response = await axios.get('http://www.omdbapi.com/', {
+    const response = await axios.get('https://www.omdbapi.com/', {
         params: {
             apikey: '236a52a7',
             // parameter i for get the detailed information on a movie
